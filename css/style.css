@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wh30{
+  width: 30vw;
+  height: 40vh;
+}
+
+.txt {
+  background-color: #131313;
+  color: white;
+  padding: 5px;
+  text-align: justify;
+}
+
+.paint1 {
+  width: 40vw;
+  height: 50vh;
+}
+
+.paint2 {
+  background-size: contain;
+}
+
+.txt p {
+  margin: 50px;
+}
+
+.container{
+  margin: 10px 0 0 10px;
+  width: 100%;
+  height: 95vh;
+}

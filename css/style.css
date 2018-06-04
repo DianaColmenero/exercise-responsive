@@ -1,35 +1,107 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #000000;
+  font-family: 'Cinzel', serif;
 }
 
-.wh30{
-  width: 30vw;
-  height: 40vh;
+.container{
+  width: 95vw;
+  height: 200vh;
+  box-sizing: border-box;
 }
 
 .txt {
   background-color: #131313;
-  color: white;
+  color: #FFFFFF;
   padding: 5px;
   text-align: justify;
 }
 
-.paint1 {
-  width: 40vw;
-  height: 50vh;
+.paint {
+  background-size: cover;
+  display: inline-block;
 }
 
+header {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 80%;
+  margin: 10px;
+}
+.header{
+margin: 0 0 0 43px;
+}
+
+h3,
+h5 {
+  margin: 0;
+}
+
+.stone {
+  color: #FFFFFF;
+}
+
+.list {
+  background-color: #EAECEE;
+}
+
+ul{
+  margin: 5px 0 0 5px;
+}
+
+ul li {
+  list-style-type: none;
+  color: #000000;
+  display: inline;
+  font-size: 10px;
+}
+
+li:hover{
+  background-color: #FFFFFF;
+}
+
+
+/*
+
 .paint2 {
-  background-size: contain;
+  position: absolute;
+  margin: 10px 0 0 1px;
+  background-color: #0099cc;
+}
+
+.paint1{
+  margin: 10px;
+}
+
+.txt {
+  position: absolute;
+  margin-top: 320px;
+  padding: 0;
+}
+
+.paint1 {
+  position: relative;
+}
+
+.wh30{
+
+}
+
+
+
+.txt{
+  position: relative;
 }
 
 .txt p {
   margin: 50px;
 }
 
-.container{
-  margin: 10px 0 0 10px;
-  width: 100%;
-  height: 95vh;
-}
+
+
+.paint1,
+.paint2,
+.txt {
+  d
+}*/

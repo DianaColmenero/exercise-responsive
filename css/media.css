@@ -1,0 +1,27 @@
+@media only screen and (max-width: 767px) {
+   For mobile phones:
+  [class*="paint"] {
+      width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop */
+  body {
+    background-color: #FFFFFF;
+  }
+
+  main img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .paint1,
+  .paint1 img{
+    width: 90%;
+    height: 66.69%;
+    background-size: contain;
+    position: relative;
+  }
+
+}

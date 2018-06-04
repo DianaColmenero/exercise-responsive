@@ -1,16 +1,25 @@
-@media only screen and (max-width: 767px) {
-   /*For mobile phones:
+/*@media only screen and (max-width: 767px) {
+   For mobile phones:
   [class*="paint"] {
-      width: 100%;*/
+      width: 100%;
   }
-}
+}*/
 
 @media only screen and (min-width: 768px) {
-  /* For desktop
+  /* For desktop*/
   body {
     background-color: #FFFFFF;
   }
 
+  header {
+		float: left;
+		min-height: 858px;
+		width: 65%;
+		margin: 0;
+		padding: 0;
+		background-image: url(http://source.unsplash.com/1600x900/?flowers);
+		/* background: #ffffff; */
+	}
   main img {
     width: 300px;
     height: 300px;
@@ -22,6 +31,18 @@
     height: 66.69%;
     background-size: contain;
     position: relative;
-  }*/
+  }
+
+  ul {
+		padding: 10%;
+		margin-top: 0;
+	}
+
+	li {
+		display: block;
+		margin-bottom: 5%;
+		font-size: 0.8em;
+	}
+
 
 }

@@ -39,9 +39,26 @@ h5 {
 
 }
 
+.p-1 {
+  background-color: #FFFFFF;
+  height: 4vh;
+  text-align: justify;
+}
+
+.p-1 h3{
+  font-size: 10px;
+  color: gray;
+  text-align: justify;
+  margin-top: -4px;
+  padding-top: 6px;
+}
+
 .paint img{
   max-width: 100%;
   margin-top: 5px;
+  background-size: cover;
+  height: 185px;
+  width: 100%;
 }
 
 .stone {

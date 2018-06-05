@@ -1,36 +1,29 @@
-/*@media only screen and (max-width: 767px) {
-   For mobile phones:
-  [class*="paint"] {
-      width: 100%;
-  }
-}*/
-
 @media only screen and (min-width: 768px) {
   /* For desktop*/
   body {
     background-color: #FFFFFF;
+    width: 98%;
+    height: 97vh;
   }
 
-  header {
-		float: left;
+  .container{
+    width: 97%;
+  }
+
+  .head {
+    float: left;
 		min-height: 858px;
 		width: 65%;
 		margin: 0;
 		padding: 0;
 		background-image: url(http://source.unsplash.com/1600x900/?flowers);
-		/* background: #ffffff; */
 	}
-  main img {
-    width: 300px;
-    height: 300px;
-  }
 
-  .paint1,
-  .paint1 img{
-    width: 90%;
-    height: 66.69%;
-    background-size: contain;
-    position: relative;
+  .stone {
+    position: absolute;
+		color: #FFFFFF;
+		margin-left: 4em;
+    margin-top: 800px;
   }
 
   ul {
@@ -38,11 +31,68 @@
 		margin-top: 0;
 	}
 
-	li {
-		display: block;
-		margin-bottom: 5%;
-		font-size: 0.8em;
+
+  .list {
+    height: 105px;
+  }
+
+  .paint1,
+  .p-1 {
+    display: none;
+  }
+
+  .paint2 {
+    display: inline-block;
+  }
+
+  .paint img {
+    margin-top: 0;
+    min-height: 420px;
+    background-size: contain;
+    margin-bottom: 10px;
+    margin-left: 3.1%;
+  }
+
+   #txt {
+    display: inline-block;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-left: 1%;
+  }
+
+  .paint2,
+  #txt {
+    width: 30%;
+    min-height: 422px;
+
+  }
+
+  .header,
+  .list {
+		background: #FFFFFF;
+		width: 170px;
+		margin-left: 4em;
+		opacity: 0.6;
 	}
 
+	.header {
+		margin-top: 70px;
+	}
+
+	.title {
+		font-size: 1.1em;
+		padding: 8%;
+	}
+
+  .txt p {
+    padding-top: 32%;
+    font-size: 16px;
+  }
+
+  ul li {
+		margin-bottom: 2%;
+		font-size: 0.7em;
+    display: block;
+	}
 
 }
